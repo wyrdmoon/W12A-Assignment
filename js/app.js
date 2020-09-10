@@ -19,9 +19,18 @@ class BoredApi {
 
         ajax.open ("GET", "http://www.boredapi.com/api/activity/", true);
         ajax.send();
+        ajax.open ("GET", "http://www.boredapi.com/api/activity?participants=1", true);
+        ajax.send();
+        ajax.open ("GET", "http://www.boredapi.com/api/activity?price=0.0", true);
+        ajax.send();
+        ajax.open ("GET", "", true);
+        ajax.send();
 
     }
 }
 function getFuntimes (){bored.getActivity();}
 let bored = new BoredApi();
 document.getElementById("funtimes").addEventListener("click", getFuntimes)
+document.getElementById("funtimes2").addEventListener("click", getFuntimes)
+document.getElementById("funtimes3").addEventListener("click", getFuntimes)
+document.getElementById("funtimes4").addEventListener("click", getFuntimes)

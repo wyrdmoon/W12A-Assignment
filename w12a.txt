@@ -1,0 +1,10 @@
+myCar.honkHorn(1);
+mySecondCar.honkHorn(1);
+mySecondCar.hornSound = "LALALAA";
+
+
+mySecondCar.honkHorn(1);
+mySecondCar.hornSound = "LALALAA";
+
+
+bored.getActivity();
